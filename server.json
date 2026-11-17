@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.aeonproxy/mcp",
+  "title": "AeonProxy",
+  "description": "Residential and mobile proxies for AI agents: locations, prices, proxy lines, pages by country",
+  "version": "1.0.0",
+  "websiteUrl": "https://aeonproxy.com/docs/setup/mcp-server",
+  "repository": {
+    "url": "https://github.com/alexaeonproxy/aeonproxy-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://aeonproxy.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aeonproxy.com/mcp"
+    }
+  ]
+}
